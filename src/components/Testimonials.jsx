@@ -11,7 +11,7 @@
  */
 
 import { Home, Shield, MapPin, Check, ArrowRight } from 'lucide-react';
-import { sectorsTrajectory, business, buildWhatsAppUrl } from '../data/businessData';
+import { sectorsTrajectory, buildWhatsAppUrl } from '../data/businessData';
 
 // Mapeo dinámico de iconos
 const iconMap = {

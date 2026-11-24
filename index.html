@@ -3,34 +3,20 @@
   <head>
     <meta charset="UTF-8" />
 
-    <!-- Favicon Oficial vectorial nítido (SVG) con respaldo webp -->
+    <!-- Favicons SVG y respaldos PNG para Google Search y dispositivos Apple -->
     <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
-    <link rel="alternate icon" type="image/webp" href="/images/logo.webp" />
+    <link rel="icon" type="image/png" sizes="96x96" href="/favicon-96x96.png" />
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-    <!-- ══════════════════════════════════════════════
-         SEO PRINCIPAL
-    ══════════════════════════════════════════════ -->
-    <!-- Título principal optimizado para búsqueda en Cali -->
+    <!-- SEO Principal -->
     <title>Helena Metalmadera — Avisos 3D, Letras en Acero y Corte Láser | Cali</title>
-
-    <!-- Meta descripción orientada a conversión -->
     <meta
       name="description"
       content="Taller de fabricación en Cali: avisos publicitarios 3D, letras corpóreas en acero inoxidable, avisos iluminados LED, señalética, corte láser y mobiliario industrial. Precio directo de fábrica. ¡Cotiza por WhatsApp!"
     />
-
-    <!-- Palabras clave geolocalizadas -->
-    <meta
-      name="keywords"
-      content="avisos 3D Cali, letras corpóreas acero inoxidable Cali, avisos LED Cali, señalética arquitectónica Cali, corte láser Cali, mobiliario industrial metal madera, avisos publicitarios Cali Colombia, Helena Metalmadera"
-    />
-
-    <!-- Autor y rastreo -->
     <meta name="author" content="Helena Metalmadera" />
     <meta name="robots" content="index, follow" />
-
-    <!-- URL canónica // EDITABLE - VALIDAR CON CLIENTE: Dominio final en producción -->
     <link rel="canonical" href="https://helena-metalmadera.vercel.app/" />
 
     <!-- ══════════════════════════════════════════════
@@ -61,20 +47,28 @@
     />
     <meta name="twitter:image" content="https://helena-metalmadera.vercel.app/images/logo.webp" />
 
-    <!-- ══════════════════════════════════════════════
-         SCHEMA.ORG JSON-LD — Negocio Local
-         Ayuda a Google a estructurar los datos del taller
-    ══════════════════════════════════════════════ -->
+    <!-- Datos estructurados Schema.org (@graph: WebSite + Negocio Local) -->
     <script type="application/ld+json">
     {
       "@context": "https://schema.org",
-      "@type": "HomeAndConstructionBusiness",
-      "name": "Helena Metalmadera",
-      "slogan": "Diseñamos · Fabricamos · Instalamos",
-      "description": "Taller de fabricación especializado en avisos publicitarios 3D, letras corpóreas en acero inoxidable, avisos iluminados LED, señalética arquitectónica, corte láser y mobiliario industrial en metal y madera a medida.",
-      "url": "https://helena-metalmadera.vercel.app",
-      "telephone": "+573167279998",
-      "image": "https://helena-metalmadera.vercel.app/images/logo.webp",
+      "@graph": [
+        {
+          "@type": "WebSite",
+          "@id": "https://helena-metalmadera.vercel.app/#website",
+          "url": "https://helena-metalmadera.vercel.app/",
+          "name": "Helena Metalmadera",
+          "inLanguage": "es-CO"
+        },
+        {
+          "@type": "HomeAndConstructionBusiness",
+          "@id": "https://helena-metalmadera.vercel.app/#business",
+          "name": "Helena Metalmadera",
+          "slogan": "Diseñamos · Fabricamos · Instalamos",
+          "description": "Taller de fabricación especializado en avisos publicitarios 3D, letras corpóreas en acero inoxidable, avisos iluminados LED, señalética arquitectónica, corte láser y mobiliario industrial en metal y madera a medida.",
+          "url": "https://helena-metalmadera.vercel.app/",
+          "telephone": "+573167279998",
+          "logo": "https://helena-metalmadera.vercel.app/images/logo.webp",
+          "image": "https://helena-metalmadera.vercel.app/images/logo.webp",
       "address": {
         "@type": "PostalAddress",
         "addressLocality": "Cali",
@@ -124,6 +118,8 @@
           {"@type": "Offer", "itemOffered": {"@type": "Service", "name": "Mobiliario Industrial"}}
         ]
       }
+        }
+      ]
     }
     </script>
   </head>

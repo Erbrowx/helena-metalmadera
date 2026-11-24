@@ -182,10 +182,7 @@ export const services = [
     title: "Avisos Publicitarios 3D",
     shortDesc:
       "Letras y logotipos tridimensionales de gran volumen e impacto visual para fachadas y accesos.",
-    fullDesc:
-      "Fabricación de letras corpóreas con relieve real que destacan tu marca día y noche. Materiales resistentes a la intemperie con acabados prolijos.",
     icon: "Box",
-    // Vista nocturna con iluminación terminada — transmite resultado final impactante
     image: "/images/proyecto-la-acuarela-noche.webp",
     whatsappMessage:
       "Hola Helena Metalmadera, quiero cotizar un Aviso Publicitario 3D para mi negocio.",
@@ -196,10 +193,7 @@ export const services = [
     title: "Letras en Acero Inoxidable",
     shortDesc:
       "Elegancia perdurable en acero satinado o brillante para recepciones corporativas y fachadas.",
-    fullDesc:
-      "Manufactura de alta precisión en acero inoxidable. Máxima resistencia a la corrosión, fijación oculta y presencia distinguida con acabados atención directa.",
     icon: "Layers",
-    // Proceso real de fabricación y soldadura de letras metálicas en taller
     image: "/images/hero-bg.webp",
     whatsappMessage:
       "Hola Helena Metalmadera, me gustaria cotizar letras en Acero Inoxidable para mi empresa.",
@@ -210,10 +204,7 @@ export const services = [
     title: "Avisos Iluminados LED",
     shortDesc:
       "Iluminación halo perimetral o frontal con módulos LED de alto rendimiento y bajo consumo.",
-    fullDesc:
-      "Letreros con iluminación integrada que garantizan visibilidad óptima. Cableado oculto y tonalidades cálidas o neutras según el proyecto.",
     icon: "Zap",
-    // Fachada iluminada con retroiluminación halo LED perimetral — resultado terminado
     image: "/images/proyecto-bienvenidos-led.webp",
     whatsappMessage:
       "Hola Helena Metalmadera, me interesa cotizar un Aviso Iluminado con LED.",
@@ -224,10 +215,7 @@ export const services = [
     title: "Señalética y Fachadas",
     shortDesc:
       "Sistemas de identificación para condominios, conjuntos residenciales, comercios y edificios.",
-    fullDesc:
-      "Diseño y fabricación de nomenclatura de fachada, monumentos de identidad y señalética que unifican la estética de tu desarrollo.",
     icon: "MapPin",
-    // Letrero monumental estético en acabado terminado
     image: "/images/proyecto-la-castilla.webp",
     whatsappMessage:
       "Hola Helena Metalmadera, necesito cotizar senaletica o letrero de fachada para un proyecto.",
@@ -238,10 +226,7 @@ export const services = [
     title: "Corte Láser y Personalizados",
     shortDesc:
       "Escudos heráldicos, calados geométricos de precisión y piezas tridimensionales especiales.",
-    fullDesc:
-      "Transformamos láminas metálicas con corte de alta definición y diseños personalizados. Ideal para paneles decorativos y avisos institucionales complejos.",
     icon: "Wrench",
-    // Escudo institucional con calado de alta definición — resultado terminado
     image: "/images/proyecto-conquistadores.webp",
     whatsappMessage:
       "Hola Helena Metalmadera, quisiera cotizar un trabajo en Corte Laser y Personalizado.",
@@ -252,10 +237,7 @@ export const services = [
     title: "Mobiliario Industrial",
     shortDesc:
       "Estructuras robustas en metal combinadas con madera natural para locales, restaurantes y hogares.",
-    fullDesc:
-      "Estanterías, muebles para TV, mesas y barras fabricadas a medida exacta. Soldaduras pulidas, perfilería firme y pintura electrostática de alta resistencia.",
     icon: "Home",
-    // Estantería industrial terminada en metal y madera
     image: "/images/proyecto-mobiliario-estanteria.webp",
     whatsappMessage:
       "Hola Helena Metalmadera, quiero cotizar mobiliario industrial en metal y madera a medida.",
@@ -417,7 +399,7 @@ export const sectorsTrajectory = [
     icon: "Shield",
     featuredProject: "Sede Habitacional Conquistadores — Ejército Nacional",
     description:
-      "Elaboramos escudos con calado minucioso y letras en acero inoxidable con retroiluminación rasante, proyectando solidez, solemnidad y acabados atención directa.",
+      "Elaboramos escudos con calado minucioso y letras en acero inoxidable con retroiluminación rasante, proyectando solidez, solemnidad y acabados profesionales.",
     highlights: [
       "Corte de alta precisión",
       "Fijación limpia sin cables a la vista",

@@ -13,7 +13,7 @@
 import {
   Box, Layers, Zap, MapPin, Wrench, Home, ArrowRight
 } from 'lucide-react';
-import { services, business, buildWhatsAppUrl } from '../data/businessData';
+import { services, buildWhatsAppUrl } from '../data/businessData';
 
 // Mapeo dinámico de componentes de iconos de Lucide
 const iconMap = {
