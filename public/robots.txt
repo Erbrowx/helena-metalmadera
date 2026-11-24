@@ -6,4 +6,4 @@ User-agent: *
 Allow: /
 
 # EDITABLE: Reemplaza con tu dominio real cuando tengas hosting
-Sitemap: https://helenametalmadera.com/sitemap.xml
+Sitemap: https://helena-metalmadera.vercel.app/sitemap.xml
