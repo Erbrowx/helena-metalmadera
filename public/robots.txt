@@ -1,0 +1,9 @@
+# robots.txt — Helena Metalmadera
+# Instrucciones para los motores de búsqueda (Google, Bing, etc.)
+
+# Permite que todos los robots rastreen todo el sitio
+User-agent: *
+Allow: /
+
+# EDITABLE: Reemplaza con tu dominio real cuando tengas hosting
+Sitemap: https://helenametalmadera.com/sitemap.xml

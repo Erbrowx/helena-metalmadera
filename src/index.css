@@ -1,0 +1,85 @@
+/**
+ * index.css — Estilos globales base
+ *
+ * Incluye:
+ * - Directivas @tailwind para inyectar los estilos de Tailwind CSS
+ * - scroll-smooth para navegación suave entre secciones
+ * - Estilos base personalizados que se aplican globalmente
+ */
+
+/* ─── DIRECTIVAS DE TAILWIND CSS ───────────────────────────────── */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* ─── ESTILOS BASE GLOBALES ─────────────────────────────────────── */
+@layer base {
+  /* Scroll suave y fondo oscuro global continuo para evitar destellos o franjas claras */
+  html {
+    scroll-behavior: smooth;
+    background-color: #09090b;
+    overflow-x: hidden;
+    max-width: 100vw;
+  }
+
+  body {
+    @apply bg-zinc-950 text-white antialiased;
+    background-color: #09090b;
+    overflow-x: hidden;
+    max-width: 100vw;
+    width: 100%;
+    min-height: 100%;
+  }
+
+  /* Contenedor raíz de React con fondo oscuro sólido garantizado */
+  #root {
+    background-color: #09090b;
+    @apply bg-zinc-950 min-h-screen w-full;
+  }
+
+  /* Foco visible para accesibilidad de teclado */
+  *:focus-visible {
+    @apply outline-2 outline-amber-500 outline-offset-2;
+  }
+}
+
+/* ─── COMPONENTES REUTILIZABLES ─────────────────────────────────── */
+@layer components {
+  /* Contenedor de sección estándar */
+  .section-container {
+    @apply max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-16 md:py-24;
+  }
+
+  /* Título de sección con línea decorativa */
+  .section-title {
+    @apply text-3xl sm:text-4xl font-black text-white;
+  }
+
+  /* Botón primario amber */
+  .btn-primary {
+    @apply inline-flex items-center gap-2 bg-amber-500 hover:bg-amber-400 text-zinc-950 font-bold px-6 py-3 rounded-xl transition-all duration-200 hover:-translate-y-0.5 hover:shadow-lg;
+  }
+
+  /* Botón WhatsApp verde */
+  .btn-whatsapp {
+    @apply inline-flex items-center gap-2 bg-green-600 hover:bg-green-500 text-white font-bold px-6 py-3 rounded-xl transition-all duration-200 hover:-translate-y-0.5 hover:shadow-lg hover:shadow-green-900/40;
+  }
+
+  /* Tarjeta base oscura */
+  .card-dark {
+    @apply bg-zinc-900 border border-zinc-800 rounded-2xl overflow-hidden hover:border-amber-500/40 transition-all duration-300;
+  }
+}
+
+/* ─── UTILIDADES PERSONALIZADAS ─────────────────────────────────── */
+@layer utilities {
+  /* Texto con gradiente amber para highlights */
+  .text-gradient-amber {
+    @apply bg-gradient-to-r from-amber-400 to-amber-600 bg-clip-text text-transparent;
+  }
+
+  /* Línea decorativa horizontal */
+  .divider-amber {
+    @apply w-16 h-1 bg-amber-500 rounded-full;
+  }
+}
