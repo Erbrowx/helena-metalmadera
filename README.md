@@ -1,16 +1,32 @@
-# React + Vite
+# Helena Metalmadera — Landing Page Comercial
 
-This template provides a minimal setup to get React working in Vite with HMR and some Oxlint rules.
+Sitio web comercial *responsive* desarrollado para **Helena Metalmadera**, enfocado en la presentación de especialidades, catálogo visual de trabajos y conversión directa vía WhatsApp para clientes en **Cali, alrededores y el Valle del Cauca**.
 
-Currently, two official plugins are available:
+## Características Principales
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+- **Arquitectura Single Source of Truth (`src/data/businessData.js`):** Centraliza información comercial, horarios, cobertura, especialidades, proyectos y generación segura de enlaces de WhatsApp mediante `buildWhatsAppUrl()`.
+- **Portafolio Interactivo y Lightbox Táctil (`Gallery.jsx`):** Filtros dinámicos por categoría, vistas múltiples por proyecto y visor modal con soporte para teclado (`Escape`, `ArrowLeft`, `ArrowRight`) y gestos táctiles (*swipe*).
+- **Navegación Inteligente (`Navbar.jsx`):** Detección automática de sección activa mediante `IntersectionObserver`, menú adaptable para dispositivos móviles y desplazamiento suave.
+- **Optimización de Activos y SEO Técnico:** Imágenes locales estandarizadas en formato `.webp` con respaldo `onError`, metadatos Open Graph, datos estructurados JSON-LD (`HomeAndConstructionBusiness`), `robots.txt` y `sitemap.xml`.
 
-## React Compiler
+## Stack Tecnológico
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+- **Frontend:** React + Vite
+- **Estilos:** Tailwind CSS
+- **Iconografía:** Lucide React
+- **Despliegue:** GitHub + Vercel
 
-## Expanding the Oxlint configuration
+## Estructura del Proyecto
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and Oxlint's TypeScript related rules in your project.
+```text
+helena-metalmadera/
+├── public/
+│   ├── images/          # Activos visuales en formato .webp
+│   ├── favicon.svg      # Icono del navegador
+│   ├── robots.txt       # Directivas para rastreadores
+│   └── sitemap.xml      # Mapa del sitio para buscadores
+├── src/
+│   ├── components/      # Componentes modulares de interfaz
+│   ├── data/            # Fuente única de verdad (businessData.js)
+│   └── utils/           # Utilidades compartidas
+└── index.html           # Metadatos SEO y estructura base
